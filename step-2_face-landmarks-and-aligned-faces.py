@@ -1,7 +1,19 @@
 # -*- coding: utf-8 -*-
 import os, os.path
+#如果没有安装dlib，按下列步骤安装
+#yum install boost-devel 
+#yum install make
+#pip install cmake
+#pip install dlib 
 import dlib
+#如果没有安装cv2，按下列步骤安装
+#pip install opencv-python
 import cv2
+#如果没有安装openface,按下列步骤安装
+#git clone https://github.com/cmusatyalab/openface.git
+#cd openface
+#pip install -r requirements.txt
+#sudo python setup.py install
 import openface
 from skimage import io
 
